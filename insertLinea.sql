@@ -1,14 +1,14 @@
-insert into Linea(id_linea int Primary key, 
-					Numero int not null, 
-					Horario_Ini time,
-					Horario_Fin time, 
-					Color varchar(10), 
-					RefRecorrido int not null);
+--insert into Linea(id_linea int Primary key, 
+--					Numero int not null, 
+--					Horario_Ini time,
+--					Horario_Fin time, 
+--					Color varchar(10), 
+--					RefRecorrido int not null);
 
 
-micros 14 1 20 5 11 3 9 4 2 
+--micros 14 1 20 5 11 3 9 4 2 
 
-colectivos azul 45 7 450 145, verdes 1 10 110 1010, 
+--colectivos azul 45 7 450 145, verdes 1 10 110 1010, 
 
 
 	insert into Linea(Numero, Horario_Ini, Horario_Fin, RefRecorrido)
