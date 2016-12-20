@@ -1,6 +1,5 @@
 
 
-
 --450  micro normal
 --150  micro estudiante
 
@@ -16,4 +15,11 @@
 
 
 
-Insert into Tarifa(	Descripcion, Monto,	RefLinea);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa normal', 450, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa estudiante', 150, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa hacia niebla', 600, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa hacia estudiante niebla', 200, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa normal (desde 7:00 hasta 22:00)', 500, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa nocturna (desde 22:00 hasta 7:00)', 600, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa feriados (Azul)', 500, 1);
+Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa feriados (Verde)', 600, 2);
