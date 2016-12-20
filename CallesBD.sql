@@ -1,5 +1,3 @@
-
-
 INSERT INTO Calle(Nombre) VALUES ('Ruta 206');
 INSERT INTO Calle(Nombre) VALUES ('Picarte');
 INSERT INTO Calle(Nombre) VALUES ('Circunvalación');
@@ -61,14 +59,10 @@ INSERT INTO Calle(Nombre) VALUES ('Chuquicamata');
 INSERT INTO Calle(Nombre) VALUES ('Pasaje Doce');
 INSERT INTO Calle(Nombre) VALUES ('El Romance');
 INSERT INTO Calle(Nombre) VALUES ('Vicente Carvallo');
-
 INSERT INTO Calle(Nombre) VALUES ('T-350 (Camino a niebla)');
 INSERT INTO Calle(Nombre) VALUES ('T-352 (Niebla)');
-
 INSERT INTO Calle(Nombre) VALUES ('Las Gaviotas');
-
 INSERT INTO Calle(Nombre) VALUES ('Los Laureles');
-
 INSERT INTO Calle(Nombre) VALUES ('Balmaceda');
 INSERT INTO Calle(Nombre) VALUES ('Av. Rene Schneider');
 INSERT INTO Calle(Nombre) VALUES ('Havdaerbeck');
