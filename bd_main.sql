@@ -50,14 +50,15 @@ Create table Vehiculo(	Patente varchar(6) Primary key,
 						RefLinea int not null,
 						FOREIGN KEY (RefLinea) REFERENCES Linea(id_Linea),
 						FOREIGN KEY (RefConductor) REFERENCES Conductor(Rut)
-						);
+					 );
 
-Create table Lugar_Principal(	id_Lugar int Primary key,
+Create table Lugar_Principal(	id_Lugar int Primary key auto_increment,
 								Nombre varchar(50),
 								Descripcion varchar(100)
 							);
-Create table LPrincipal_Calle (	RefLugar int not null,
+
+Create table LPrincipal_Calle(	RefLugar int not null,
 								RefCalle int not null,
 								FOREIGN KEY (RefLugar) REFERENCES Lugar_Principal(id_Lugar),
 								FOREIGN KEY (RefCalle) REFERENCES Calle(id_Calle)
-							);
+							 );
