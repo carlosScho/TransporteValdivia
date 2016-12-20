@@ -6,8 +6,8 @@ Create table Recorrido(	id_Recorrido int Primary key auto_increment,
 
 Create table Recorrido_Calle(RefRecorrido int Primary key,
 							 RefCalle int Primary key,
-							 CONSTRAInt PK_ (RefRecorrido) REFERENCES Recorrido(id_Recorrido),
-							 CONSTRAINT (RefCalle) REFERENCES Calle(id_Calle)
+							 FOREIGN key (RefRecorrido) REFERENCES Recorrido(id_Recorrido),
+							 FOREIGN key (RefCalle) REFERENCES Calle(id_Calle)
 							 );
 
 Create table Calle(	id_Calle int Primary key auto_increment, 
