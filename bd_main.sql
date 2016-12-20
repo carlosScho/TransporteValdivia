@@ -10,7 +10,7 @@ Create table Calle(	id_Calle int Primary key auto_increment,
 
 Create table Tarifa(id_Tarifa int Primary key auto_increment, 
 					Descripcion varchar(100), 
-					Monto int not null, 
+					Monto int not null
 					);
 
 Create table Conductor(	Rut varchar(10) Primary key, 
