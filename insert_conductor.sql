@@ -10,7 +10,7 @@ INSERT INTO Conductor VALUES('12965456-7','Claudio','Aravena','1974-09-27');
 INSERT INTO Conductor VALUES('11965456-8','Ruben','Sandoval','1977-09-23');
 INSERT INTO Conductor VALUES('10965456-9','Sebastian','Carcamo','1971-09-16');
 INSERT INTO Conductor VALUES('13965456-7','Felipe','Soto','1974-09-02');
-INSERT INTO Conductor VALUES('13965456-6','Jaime','Torres','1945-09-02');
+INSERT INTO Conductor VALUES('13949724-6','Jaime','Torres','1945-09-02');
 INSERT INTO Conductor VALUES('12965456-5','Andres','Toledo','1966-09-08');
 INSERT INTO Conductor VALUES('17916545-1','Valentina','Arriagada','1967-09-30');
 INSERT INTO Conductor VALUES('18965456-1','Pamela','Huichal','1978-09-02');
