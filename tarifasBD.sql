@@ -15,11 +15,11 @@
 
 
 
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa normal', 450, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa estudiante', 150, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa hacia niebla', 600, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Micro tarifa hacia estudiante niebla', 200, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa normal (desde 7:00 hasta 22:00)', 500, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa nocturna (desde 22:00 hasta 7:00)', 600, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa feriados (Azul)', 500, 1);
-Insert Into Tarifa(	Descripcion, Monto,	RefLinea) Values ('Colectivo tarifa feriados (Verde)', 600, 2);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Micro tarifa normal', 450);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Micro tarifa estudiante', 150);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Micro tarifa hacia niebla', 600);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Micro tarifa hacia estudiante niebla', 200);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Colectivo tarifa normal (desde 7:00 hasta 22:00)', 500);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Colectivo tarifa nocturna (desde 22:00 hasta 7:00)', 600);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Colectivo tarifa feriados (Azul)', 500);
+Insert Into Tarifa(	Descripcion, Monto) Values ('Colectivo tarifa feriados (Verde)', 600);

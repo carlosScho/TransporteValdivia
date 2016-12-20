@@ -69,7 +69,6 @@ INSERT INTO Calle(Nombre) VALUES ('Las Gaviotas');
 
 INSERT INTO Calle(Nombre) VALUES ('Los Laureles');
 
-
 INSERT INTO Calle(Nombre) VALUES ('Balmaceda');
 INSERT INTO Calle(Nombre) VALUES ('Av. Rene Schneider');
 INSERT INTO Calle(Nombre) VALUES ('Havdaerbeck');
