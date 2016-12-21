@@ -1,7 +1,6 @@
 --Micro 1
 INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Balmaceda','Ingeniero Raul Saez','01:20:00');
 
-
 --Micro 2 A
 
 INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Pedro Aguirre Cerda','Arica','01:50:00');
