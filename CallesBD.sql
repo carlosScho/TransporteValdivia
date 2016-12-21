@@ -96,6 +96,7 @@ INSERT INTO Calle(Nombre) VALUES ('Martines de Rozas');
 INSERT INTO Calle(Nombre) VALUES ('Jose Victorino Lastarria');
 INSERT INTO Calle(Nombre) VALUES ('Los Boldos');
 INSERT INTO Calle(Nombre) VALUES ('Los Lingües');
+<<<<<<< HEAD
 
 
 
@@ -115,3 +116,5 @@ INSERT INTO Calle(Nombre) VALUES ('Los Lingües');
 
 
 
+=======
+>>>>>>> 352f5037aba0d1e7ea590d2cf49dc4f971ac676f
