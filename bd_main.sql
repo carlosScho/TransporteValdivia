@@ -26,7 +26,7 @@ Create table Recorrido_Calle(RefRecorrido int not null,
 							 );
 
 Create table Linea(	id_Linea int Primary key auto_increment,
-					Numero int not null,
+					Numero varchar(4) not null,
 					Terminal varchar(50), 
 					Horario_Ini time,
 					Horario_Fin time, 

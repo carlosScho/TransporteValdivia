@@ -9,15 +9,13 @@ insert into Lugar_Principal(Nombre, Descripcion) values ('UACH Campus Miraflores
 
 insert into Lugar_Principal(Nombre, Descripcion) values ('USS', 'Univesidad San Sebastian');
 
-insert into Lugar_Principal(Nombre, Descripcion) values ('UST', 'Universidad Santo Tomás'); --6
+insert into Lugar_Principal(Nombre, Descripcion) values ('UST', 'Universidad Santo Tomás'); 
 
-insert into Lugar_Principal(Nombre, Descripcion) values ('Inacap', 'Instituto Profecional Inacap');--7
+insert into Lugar_Principal(Nombre, Descripcion) values ('Inacap', 'Instituto Profesional Inacap');
 
-insert into Lugar_Principal(Nombre, Descripcion) values ('Mall', 'Centro comercial de Valdivia');--8
+insert into Lugar_Principal(Nombre, Descripcion) values ('Mall', 'Centro comercial de Valdivia');
 
 
---RefLugar
---RefCalle
 
 insert into LPrincipal_Calle values (1, 51);
 insert into LPrincipal_Calle values (2, 27);
