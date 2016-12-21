@@ -30,7 +30,7 @@ Create table Linea(	id_Linea int Primary key auto_increment,
 					Terminal varchar(50), 
 					Horario_Ini time,
 					Horario_Fin time, 
-					Micro boolean not null, 
+					Tipo varchar(10) not null, 
 					Color varchar(10), 
 					RefRecorrido int not null,
 					FOREIGN KEY (RefRecorrido) REFERENCES Recorrido(id_Recorrido)
