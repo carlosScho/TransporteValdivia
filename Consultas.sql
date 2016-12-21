@@ -27,4 +27,23 @@ From Linea
 where linea.Tipo = 'Micro'
 
 
+--Que locomocion pasa por donde estoy y me lleva a una calle destino
+
+(Select Linea.Tipo, Linea.Numero, Linea.Color
+from Linea
+join Recorrido on Linea.RefREcorrido = Recorrido.id_Recorrido
+join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
+join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
+where Calle.Nombre = 'Picarte')
+intersect 
+(Select Linea.Tipo, Linea.Numero, Linea.Color
+from Linea
+join Recorrido on Linea.RefREcorrido = Recorrido.id_Recorrido
+join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
+join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
+where Calle.Nombre = 'General Lagos');
+
+--
+
+
 
