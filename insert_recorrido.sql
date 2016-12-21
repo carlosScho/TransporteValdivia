@@ -25,7 +25,7 @@ INSERT into Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Av. Rene Schneider', 'L
 
 INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Balmaceda','Los Laureles (UACH)','00:45:00');
 
-
+--micro 9
 INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Ingeniero Raul Saez', 'Los Robles','00:40:00');
 
 --colectivo 45
