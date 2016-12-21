@@ -24,13 +24,13 @@
 	Values ('11', '07:00:00', '22:00:00','Micro', 7);
 
 	insert into Linea(Numero, Horario_Ini, Horario_Fin,Tipo, RefRecorrido)
-	Values ('5', '06:45:00', '22:00:00','Micro', 10);
+	Values ('5', '06:45:00', '22:00:00','Micro', 9);
 
 	insert into Linea(Numero, Horario_Ini, Horario_Fin,Tipo, RefRecorrido)
 	Values ('3', '06:20:00', '22:30:00','Micro', 4);
 
 	insert into Linea(Numero, Horario_Ini, Horario_Fin,Tipo, RefRecorrido)
-	Values ('9', '06:30:00', '22:00:00','Micro', 11);
+	Values ('9', '06:30:00', '22:00:00','Micro', 10);
 
 	insert into Linea(Numero, Horario_Ini, Horario_Fin,Tipo, RefRecorrido)
 	Values ('4', '06:45:00', '22:00:00','Micro', 5);
@@ -43,25 +43,17 @@
 
 
 	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('45', 'Azul','Colectivo', 1);
+	Values ('45', 'Azul','Colectivo', 11);
+
 
 	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('7', 'Azul','Colectivo', 1);
+	Values ('110', 'Verde','Colectivo', 15);
 
 	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('450', 'Azul','Colectivo', 1);
+	Values ('1010', 'Verde','Colectivo', 13);
 
 	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('145', 'Azul','Colectivo', 1);
+	Values ('50', 'Naranjo','Colectivo', 12);
 
 	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('1', 'Verde','Colectivo', 1);
-
-	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('10', 'Verde','Colectivo', 1);
-
-	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('110', 'Verde','Colectivo', 1);
-
-	insert into Linea(Numero, Color,Tipo, RefRecorrido)
-	Values ('1010', 'Verde','Colectivo', 1);
+	Values ('21', 'Amarillo','Colectivo', 14);

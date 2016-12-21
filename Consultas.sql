@@ -8,9 +8,9 @@ join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
 where Calle.Nombre = 'Picarte';
 
 
---Que micro me sirve para llegar a la UACH Teja
+--Que micro me sirve para llegar a la INACAP
 
-Select Linea.Tipo, Linea.Numero, Linea.Color
+Select Linea.Tipo, Linea.Numero
 from Linea
 join Recorrido on Linea.RefREcorrido = Recorrido.id_Recorrido
 join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
@@ -46,7 +46,7 @@ where Calle.Nombre = 'General Lagos');
 
 --de la micro con patente 'SD0604' necesito saber el nombre del chofer y el terminal de la micro
 
-Select Conductor.Nombre, Conductor.Apellido, Linea.Terminal
+Select Conductor.Nombre, Conductor.Apellido, 
 From Conductor
 Join Vehiculo on Conductor.Rut = Vehiculo.RefConductor
 Join Linea on Vehiculo.RefLinea = Linea.id_Linea
