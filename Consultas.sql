@@ -29,19 +29,20 @@ where linea.Tipo = 'Micro'
 
 --Que locomocion pasa por donde estoy y me lleva a una calle destino
 
-(Select Linea.Tipo, Linea.Numero, Linea.Color
-from Linea
-join Recorrido on Linea.RefREcorrido = Recorrido.id_Recorrido
+Select *
+From (Select L1.Tipo, L1.Numero, L1.Color
+from Linea as L1
+join Recorrido on L1.RefREcorrido = Recorrido.id_Recorrido
 join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
 join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
 where Calle.Nombre = 'Picarte')
-intersect 
-(Select Linea.Tipo, Linea.Numero, Linea.Color
-from Linea
-join Recorrido on Linea.RefREcorrido = Recorrido.id_Recorrido
+join (Select L2.Tipo, L2.Numero, L2.Color
+from Linea as L2
+join Recorrido on L2.RefREcorrido = Recorrido.id_Recorrido
 join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
 join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
-where Calle.Nombre = 'General Lagos');
+where Calle.Nombre = 'General Lagos')
+on L1.id_Linea = L2.id_Linea;
 
 
 --de la micro con patente 'SD0604' necesito saber el nombre del chofer y el terminal de la micro
