@@ -28,6 +28,25 @@ INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Balmaceda','Los Laurele
 
 INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Ingeniero Raul Saez', 'Los Robles','00:40:00');
 
+--colectivo 45
+
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Pedro Castel Blanco', 'Independecia','00:30:00');
+--colectivo 50
+
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Av. Rene Schneider', 'General Alberto Montecinos Caro','00:40:00');
+--colectivo 1010
+
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Jose Victorino Lastarria', 'Chacabuco','00:40:00');
+--colectivo 21 amarillo
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('El Romance', 'Arauco','00:30:00');
+--colectivo 110
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Av. Francia', 'Picarte','00:25:00');
+--colectivo 150
+INSERT INTO Recorrido(Inicio, Fin, Tiempo_Aprox) VALUES('Pablo Neruda', 'Independecia','00:40:00');
+
+
+
+
 
 
 
