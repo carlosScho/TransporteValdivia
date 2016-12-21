@@ -17,7 +17,7 @@ join Recorrido_Calle on Recorrido.id_Recorrido = Recorrido_Calle.RefREcorrido
 join Calle on Recorrido_Calle.RefCalle = Calle.id_Calle
 join Lprincipal_Calle on Calle.id_Calle = Lprincipal_Calle.RefCalle
 join Lugar_Principal on Lprincipal_Calle.RefLugar = Lugar_Principal.id_Lugar
-where Lugar_Principal.Nombre = 'UACH Campus Teja';
+where Lugar_Principal.Nombre = 'Inacap' and Linea.Tipo = 'Micro';
 
 
 --Saber hasta que horario circulan las micros
@@ -51,6 +51,8 @@ From Conductor
 Join Vehiculo on Conductor.Rut = Vehiculo.RefConductor
 Join Linea on Vehiculo.RefLinea = Linea.id_Linea
 where Vehiculo.Patente = 'SD0604';
+
+
 
 
 
